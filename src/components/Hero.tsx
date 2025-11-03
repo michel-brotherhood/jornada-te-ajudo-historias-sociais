@@ -32,7 +32,7 @@ const Hero = () => {
         <div className="text-center animate-fade-in mb-8 md:mb-12 max-w-4xl mx-auto">
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight font-fredoka">
             <span className="bg-gradient-to-r from-primary via-secondary to-coral bg-clip-text text-transparent">
-              📚✨ Kit Básico de Histórias Sociais
+              Kit Básico de Histórias Sociais
             </span>
             <br />
             <span className="text-foreground">Segurança e previsibilidade para experiências do dia a dia 💜</span>
