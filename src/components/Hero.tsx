@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Heart } from "lucide-react";
 import logo from "@/assets/logo.png";
 import heroVideo from "@/assets/hero-video.mp4";
+import StoryDecorations from "./StoryDecorations";
 
 const Hero = () => {
   const scrollToEnroll = () => {
@@ -15,6 +16,10 @@ const Hero = () => {
         <div className="absolute top-20 left-10 w-32 h-32 bg-primary/10 rounded-full blur-3xl animate-float" />
         <div className="absolute bottom-20 right-10 w-40 h-40 bg-secondary/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '1s' }} />
         <div className="absolute top-1/2 left-1/3 w-36 h-36 bg-coral/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }} />
+        <div className="absolute top-1/4 right-1/4 w-28 h-28 bg-accent/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '3s' }} />
+        
+        {/* Story decorations */}
+        <StoryDecorations />
       </div>
 
       <div className="container mx-auto px-4 py-12 md:py-16 lg:py-20 relative z-10">
@@ -25,12 +30,12 @@ const Hero = () => {
 
         {/* Título principal acima de tudo */}
         <div className="text-center animate-fade-in mb-8 md:mb-12 max-w-4xl mx-auto">
-          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight">
+          <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight font-fredoka">
             <span className="bg-gradient-to-r from-primary via-secondary to-coral bg-clip-text text-transparent">
-              💛 Kit Básico de Histórias Sociais
+              📚✨ Kit Básico de Histórias Sociais
             </span>
             <br />
-            <span className="text-foreground">Segurança e previsibilidade para experiências do dia a dia</span>
+            <span className="text-foreground">Segurança e previsibilidade para experiências do dia a dia 💜</span>
           </h1>
         </div>
 

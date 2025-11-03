@@ -18,11 +18,11 @@ const CTA = () => {
         <div className="max-w-4xl mx-auto">
           <Card className="p-6 sm:p-8 md:p-10 lg:p-12 border-2 md:border-4 border-primary/20 shadow-2xl">
             <div className="text-center mb-6 md:mb-8">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4 px-2">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4 px-2 font-fredoka">
                 💜 Criado para oferecer <span className="bg-gradient-to-r from-primary via-secondary to-coral bg-clip-text text-transparent">segurança e previsibilidade</span>
               </h2>
               <p className="text-base sm:text-lg md:text-xl text-muted-foreground px-2">
-                ✨ Histórias que preparam, acolhem e transformam o novo em familiar
+                ✨ Histórias que preparam, acolhem e transformam o novo em familiar 📖
               </p>
             </div>
             

@@ -61,14 +61,14 @@ const Testimonials = () => {
         <div className="text-center mb-8 md:mb-12 animate-fade-in">
           <div className="flex justify-center gap-1 mb-4">
             {[...Array(5)].map((_, i) => (
-              <Star key={i} className="w-6 h-6 md:w-8 md:h-8 fill-coral text-coral" />
+              <Star key={i} className="w-6 h-6 md:w-8 md:h-8 fill-coral text-coral animate-twinkle" style={{ animationDelay: `${i * 0.2}s` }} />
             ))}
           </div>
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3 md:mb-4">
-            O Que Nossos <span className="text-coral">Clientes Dizem</span>
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3 md:mb-4 font-fredoka">
+            💬 O Que Nossos <span className="text-coral">Clientes Dizem</span>
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-            Famílias e profissionais que usam o Kit de Histórias Sociais
+            Famílias e profissionais que usam o Kit de Histórias Sociais 💜
           </p>
         </div>
 

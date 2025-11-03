@@ -16,13 +16,13 @@ const About = () => {
         <div className="max-w-5xl mx-auto">
           <Card className="p-6 sm:p-8 md:p-10 lg:p-12 border-2 border-primary/20">
             <div className="text-center mb-8 md:mb-10">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 md:mb-4 px-2">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 md:mb-4 px-2 font-fredoka">
                 <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                  Sobre a Carol Magalhães
+                  💛 Sobre a Carol Magalhães
                 </span>
               </h2>
               <p className="text-base sm:text-lg md:text-xl text-muted-foreground font-semibold px-2">
-                Mãe atípica, mentora e criadora do JornadaTEAJudo
+                Mãe atípica, mentora e criadora do JornadaTEAJudo 🌟
               </p>
             </div>
             

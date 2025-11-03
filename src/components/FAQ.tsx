@@ -30,11 +30,11 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-5xl font-bold mb-4">
-              Perguntas <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Frequentes</span>
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 font-fredoka">
+              ❓ Perguntas <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Frequentes</span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              Tire suas dúvidas sobre o Kit de Histórias Sociais
+              Tire suas dúvidas sobre o Kit de Histórias Sociais 💭
             </p>
           </div>
           
