@@ -13,15 +13,15 @@ const FAQ = () => {
     },
     {
       question: "Como acesso o kit após a compra?",
-      answer: "Você receberá o acesso ao Kit CAA Básico por email imediatamente após a confirmação do pagamento. O material pode ser baixado e impresso de qualquer dispositivo: computador, celular ou tablet."
+      answer: "Você receberá o acesso ao Kit de Histórias Sociais por email imediatamente após a confirmação do pagamento. O material pode ser baixado, visualizado e impresso de qualquer dispositivo."
     },
     {
-      question: "Preciso ter conhecimento prévio sobre CAA?",
-      answer: "Não! O Kit CAA Básico foi criado para ser acessível e fácil de usar, perfeito para quem está começando na comunicação alternativa. É uma ferramenta prática de baixa tecnologia."
+      question: "O que são histórias sociais?",
+      answer: "Histórias sociais são narrativas estruturadas com figuras e textos que explicam situações do dia a dia. Elas ajudam crianças autistas a entender o que esperar em diferentes contextos, reduzindo ansiedade e oferecendo previsibilidade."
     },
     {
-      question: "O que são as 16 categorias incluídas?",
-      answer: "O kit inclui: Alimentos, Brinquedos, Cores, Ações, Atividades da vida diária, Animais, Datas, Corpo humano, Instrumentos, Lugares, Números, Roupas, Transportes, Profissões e Emoções - cobrindo as principais necessidades de comunicação do dia a dia."
+      question: "Posso personalizar as histórias?",
+      answer: "Sim! O material é editável, permitindo que você adapte as histórias para situações específicas da rotina da sua criança, tornando-as ainda mais efetivas e significativas."
     }
   ];
 
@@ -34,7 +34,7 @@ const FAQ = () => {
               Perguntas <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Frequentes</span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              Tire suas dúvidas sobre o Kit CAA Básico
+              Tire suas dúvidas sobre o Kit de Histórias Sociais
             </p>
           </div>
           

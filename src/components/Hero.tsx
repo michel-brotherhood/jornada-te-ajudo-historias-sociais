@@ -27,10 +27,10 @@ const Hero = () => {
         <div className="text-center animate-fade-in mb-8 md:mb-12 max-w-4xl mx-auto">
           <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight">
             <span className="bg-gradient-to-r from-primary via-secondary to-coral bg-clip-text text-transparent">
-              💛 Kit de Comunicação Aumentativa Alternativa
+              💛 Kit Básico de Histórias Sociais
             </span>
             <br />
-            <span className="text-foreground">Básico (CAA de baixa tecnologia)</span>
+            <span className="text-foreground">Segurança e previsibilidade para experiências do dia a dia</span>
           </h1>
         </div>
 
@@ -53,27 +53,27 @@ const Hero = () => {
           {/* Coluna do Texto */}
           <div className="text-center lg:text-left animate-fade-in space-y-4 md:space-y-6">
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground leading-relaxed">
-              Você já imaginou a angústia e a frustração de tentar se comunicar… e não conseguir ser compreendido? 💭
+              A imprevisibilidade pode gerar ansiedade e angústia em crianças autistas. 💭
             </p>
             
             <p className="text-sm sm:text-base md:text-lg text-muted-foreground">
-              Esse é o sentimento de muitas crianças, jovens e adultos que ainda não desenvolveram uma comunicação verbal funcional.
+              Aqui entra a magia das histórias sociais! Apresentar uma história social estruturada, utilizando figuras e textos, ajuda a explicar o que esperar em diferentes situações.
             </p>
             
             <p className="text-sm sm:text-base md:text-lg text-muted-foreground">
-              Mas isso não significa ausência de pensamento, emoção ou intenção. Essas pessoas têm muito a dizer — ideias, necessidades e desejos — que podem (e merecem) ser expressos de outras formas além da fala. 💜
+              As histórias sociais permitem que as crianças visualizem e se preparem para eventos futuros, tornando o desconhecido mais familiar e menos assustador. 💜
             </p>
             
             <div className="flex flex-col items-center lg:items-start gap-2">
               <Heart className="w-5 h-5 md:w-6 md:h-6 text-coral fill-coral animate-pulse lg:hidden" style={{ animationDuration: '2s' }} />
               <p className="text-base sm:text-lg font-semibold text-foreground">
-                Uma ponte entre o que se sente e o que se quer comunicar
+                Cada pequeno passo conta
                 <Heart className="hidden lg:inline-block w-5 h-5 md:w-6 md:h-6 text-coral fill-coral animate-pulse ml-1 -mt-1" style={{ animationDuration: '2s' }} />
               </p>
             </div>
             
             <p className="text-sm sm:text-base md:text-lg text-muted-foreground italic">
-              ✨ As figuras cuidadosamente selecionadas ajudam a facilitar pedidos, expressar vontades e tornar o cotidiano mais previsível e compreensível.
+              ✨ Quando a criança entende o que vai acontecer, ela se sente mais segura pra viver o novo
             </p>
             
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center lg:justify-start pt-2 md:pt-4">

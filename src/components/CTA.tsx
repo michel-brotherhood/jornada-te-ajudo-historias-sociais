@@ -4,11 +4,11 @@ import { Check, Shield } from "lucide-react";
 
 const CTA = () => {
   const includes = [
-    "16 categorias de comunicação visual",
-    "Figuras cuidadosamente selecionadas",
-    "Material de baixa tecnologia (PECs)",
-    "Apoio visual funcional e prático",
-    "Ferramenta para expressão e autonomia",
+    "Histórias sociais estruturadas",
+    "Narrativas com figuras e textos",
+    "Situações do cotidiano",
+    "Material editável e personalizável",
+    "Ferramenta para reduzir ansiedade",
     "Acesso imediato após a compra"
   ];
 
@@ -19,10 +19,10 @@ const CTA = () => {
           <Card className="p-6 sm:p-8 md:p-10 lg:p-12 border-2 md:border-4 border-primary/20 shadow-2xl">
             <div className="text-center mb-6 md:mb-8">
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4 px-2">
-                💜 Simples, acessível e feito com <span className="bg-gradient-to-r from-primary via-secondary to-coral bg-clip-text text-transparent">propósito</span>
+                💜 Criado para oferecer <span className="bg-gradient-to-r from-primary via-secondary to-coral bg-clip-text text-transparent">segurança e previsibilidade</span>
               </h2>
               <p className="text-base sm:text-lg md:text-xl text-muted-foreground px-2">
-                ✨ Um recurso que transforma gestos em palavras e palavras em conexão
+                ✨ Histórias que preparam, acolhem e transformam o novo em familiar
               </p>
             </div>
             
@@ -55,16 +55,16 @@ const CTA = () => {
                 <p className="text-xs sm:text-sm text-muted-foreground mb-2">Investimento único:</p>
                 <div className="flex flex-col items-center justify-center gap-2">
                   <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-primary via-secondary to-coral bg-clip-text text-transparent">
-                    R$ 47,00
+                    R$ 37,00
                   </span>
                   <p className="text-xs sm:text-sm text-muted-foreground mt-1">
-                    ou 2x de R$ 24,74 no cartão
+                    Pagamento único
                   </p>
                 </div>
               </div>
               
               <a 
-                href="https://pay.hotmart.com/V102371580U?sck=HOTMART_PRODUCT_PAGE&off=osyoli4h&hotfeature=32&bid=1762050613363"
+                href="https://pay.hotmart.com/Q102371696Q"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block"

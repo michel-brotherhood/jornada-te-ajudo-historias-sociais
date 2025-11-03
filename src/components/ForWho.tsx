@@ -6,25 +6,25 @@ const ForWho = () => {
     {
       icon: Heart,
       title: "Pais e Mães",
-      description: "De crianças com dificuldades de comunicação verbal",
+      description: "De crianças autistas que precisam de previsibilidade",
       color: "text-coral"
     },
     {
       icon: GraduationCap,
       title: "Educadores",
-      description: "Professores e profissionais da educação inclusiva",
+      description: "Professores que trabalham com crianças no espectro",
       color: "text-primary"
     },
     {
       icon: Users,
       title: "Terapeutas",
-      description: "Fonoaudiólogos, TOs e psicólogos que trabalham com CAA",
+      description: "Profissionais que auxiliam no desenvolvimento infantil",
       color: "text-secondary"
     },
     {
       icon: Stethoscope,
-      title: "Profissionais da Saúde",
-      description: "Equipes multidisciplinares e cuidadores",
+      title: "Cuidadores",
+      description: "Todos que convivem e apoiam crianças autistas",
       color: "text-accent"
     }
   ];
@@ -37,7 +37,7 @@ const ForWho = () => {
             Pra quem é <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">este kit</span>
           </h2>
           <p className="text-base md:text-lg text-muted-foreground px-2">
-            💜 Uma ferramenta prática e acessível para iniciar a jornada de expressão e autonomia na comunicação.
+            💜 Uma ferramenta prática para oferecer segurança e confiança nas experiências do dia a dia.
           </p>
         </div>
         

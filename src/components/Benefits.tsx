@@ -5,33 +5,33 @@ const Benefits = () => {
   const benefits = [
     {
       icon: Sparkles,
-      title: "16 Categorias",
-      description: "Alimentos, brinquedos, cores, ações, atividades, animais, datas, corpo humano, instrumentos, lugares, números, roupas, transportes, profissões e emoções"
+      title: "Histórias Estruturadas",
+      description: "Narrativas com figuras e textos que explicam situações do dia a dia"
     },
     {
       icon: Target,
-      title: "Fácil de Usar",
-      description: "Material prático e acessível para os primeiros passos na CAA"
+      title: "Previsibilidade",
+      description: "Ajuda a criança a entender o que esperar em diferentes situações"
     },
     {
       icon: Eye,
       title: "Apoio Visual",
-      description: "Figuras selecionadas para facilitar pedidos e expressões"
+      description: "Figuras que tornam o desconhecido mais familiar e menos assustador"
     },
     {
       icon: TrendingUp,
-      title: "Desenvolvimento",
-      description: "Auxilia no desenvolvimento da linguagem e interação social"
+      title: "Reduz Ansiedade",
+      description: "Preparação prévia para eventos novos e desafiadores"
     },
     {
       icon: Shield,
-      title: "Cotidiano Previsível",
-      description: "Torna a rotina mais compreensível e funcional"
+      title: "Segurança Emocional",
+      description: "Criança se sente mais confiante ao saber o que vai acontecer"
     },
     {
       icon: LineChart,
-      title: "Autonomia",
-      description: "Promove independência e confiança na comunicação"
+      title: "Pronto para Usar",
+      description: "Material prático e editável para diversas situações"
     }
   ];
 

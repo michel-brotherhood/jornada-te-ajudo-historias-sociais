@@ -7,50 +7,50 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: "Maria Silva",
-      role: "Mãe de criança não-verbal",
-      content: "O Kit CAA mudou nossa vida! Meu filho finalmente consegue expressar o que quer. Ver ele se comunicando é emocionante!",
+      role: "Mãe de criança autista",
+      content: "As histórias sociais mudaram nossa rotina! Meu filho agora sabe o que esperar e fica muito mais tranquilo nas situações novas.",
       rating: 5
     },
     {
       name: "João Santos",
-      role: "Fonoaudiólogo",
-      content: "Material excelente e muito bem elaborado. As categorias são completas e funcionais. Recomendo para todos os meus pacientes!",
+      role: "Psicólogo infantil",
+      content: "Material excelente e muito bem elaborado. As histórias são claras e funcionais. Recomendo para todas as famílias!",
       rating: 5
     },
     {
       name: "Ana Paula",
       role: "Terapeuta ocupacional",
-      content: "Praticidade e qualidade! O kit é perfeito para iniciar o trabalho com CAA. Meus pacientes adoraram e os resultados são visíveis!",
+      content: "Praticidade e qualidade! O kit é perfeito para preparar as crianças para novas experiências. Os resultados são visíveis!",
       rating: 5
     },
     {
       name: "Carlos Eduardo",
       role: "Pai e professor",
-      content: "Simples de usar e muito eficaz. As figuras são claras e facilitam muito a comunicação. Gratidão por esse material!",
+      content: "Simples de usar e muito eficaz. As histórias ajudam muito a reduzir a ansiedade. Gratidão por esse material!",
       rating: 5
     },
     {
       name: "Patrícia Oliveira",
-      role: "Psicóloga infantil",
-      content: "Como profissional, fiquei impressionada com a seleção de figuras. Um material essencial para quem trabalha com comunicação!",
+      role: "Fonoaudióloga",
+      content: "Como profissional, fiquei impressionada com a estrutura das histórias. Um material essencial para previsibilidade!",
       rating: 5
     },
     {
       name: "Roberto Lima",
       role: "Avô de criança com TEA",
-      content: "Finalmente consigo entender o que meu neto quer me dizer. O kit trouxe conexão e alegria para nossa família!",
+      content: "Agora meu neto entende melhor o que vai acontecer. O kit trouxe mais tranquilidade para toda família!",
       rating: 5
     },
     {
       name: "Juliana Costa",
       role: "Educadora especial",
-      content: "Material prático que faz diferença real na sala de aula. As 16 categorias cobrem tudo que precisamos no dia a dia!",
+      content: "Material prático que faz diferença real na sala de aula. As histórias preparam as crianças de forma acolhedora!",
       rating: 5
     },
     {
       name: "Fernando Alves",
       role: "Pai de criança autista",
-      content: "Investimento que vale muito a pena! Minha filha está mais segura e feliz ao se comunicar. Muito obrigado!",
+      content: "Investimento que vale muito a pena! Minha filha está mais segura e confiante ao viver novas experiências. Muito obrigado!",
       rating: 5
     }
   ];
@@ -68,7 +68,7 @@ const Testimonials = () => {
             O Que Nossos <span className="text-coral">Clientes Dizem</span>
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
-            Famílias e profissionais que usam o Kit CAA Básico
+            Famílias e profissionais que usam o Kit de Histórias Sociais
           </p>
         </div>
 
@@ -137,7 +137,7 @@ const Testimonials = () => {
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-coral mb-1">
-                300+
+                200+
               </div>
               <div className="text-xs md:text-sm text-muted-foreground">
                 Famílias usando o kit
