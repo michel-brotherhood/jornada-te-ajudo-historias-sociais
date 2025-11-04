@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Heart } from "lucide-react";
 import logo from "@/assets/logo.png";
-import heroVideo from "@/assets/hero-video.mp4";
+import heroVideo from "@/assets/hero-video-new.mp4";
 import StoryDecorations from "./StoryDecorations";
 
 const Hero = () => {
