@@ -31,7 +31,7 @@ const Benefits = () => {
     {
       icon: Sparkles,
       title: "✨ Pronto para Usar",
-      description: "Material prático e editável para diversas situações"
+      description: "Material prático para diversas situações do dia a dia"
     }
   ];
 

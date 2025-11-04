@@ -7,7 +7,7 @@ const CTA = () => {
     "Histórias sociais estruturadas",
     "Narrativas com figuras e textos",
     "Situações do cotidiano",
-    "Material editável e personalizável",
+    "Material pronto para usar",
     "Ferramenta para reduzir ansiedade",
     "Acesso imediato após a compra"
   ];

@@ -21,7 +21,7 @@ const FAQ = () => {
     },
     {
       question: "Posso personalizar as histórias?",
-      answer: "Sim! O material é editável, permitindo que você adapte as histórias para situações específicas da rotina da sua criança, tornando-as ainda mais efetivas e significativas."
+      answer: "Sim! O material permite que você adapte as histórias para situações específicas da rotina da sua criança, tornando-as ainda mais efetivas e significativas."
     }
   ];
 
