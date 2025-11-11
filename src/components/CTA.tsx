@@ -4,7 +4,7 @@ import { Check, Shield } from "lucide-react";
 
 const CTA = () => {
   const includes = [
-    "Histórias sociais estruturadas",
+    "36 Histórias sociais estruturadas",
     "Narrativas com figuras e textos",
     "Situações do cotidiano",
     "Material pronto para usar",
