@@ -20,6 +20,10 @@ const FAQ = () => {
       answer: "Histórias sociais são narrativas estruturadas com figuras e textos que explicam situações do dia a dia. Elas ajudam crianças autistas a entender o que esperar em diferentes contextos, reduzindo ansiedade e oferecendo previsibilidade."
     },
     {
+      question: "Quais são as 36 histórias sociais incluídas no kit?",
+      answer: "O kit contém 31 histórias sociais + 5 extras, totalizando 36 histórias:\n\n**Atividades (7 histórias):**\n• Cortar as unhas\n• Higiene pessoal\n• Porque eu tomo remédios\n• Cirurgia\n• Exame de sangue\n• Alimentação saudável\n• Vacina\n\n**Eventos especiais (13 histórias):**\n• Natal\n• Férias\n• Ano Novo\n• Vamos ao cinema\n• Visita ao museu\n• Volta às aulas\n• Halloween\n• Meu aniversário\n• Carnaval\n• Feriado\n• Estações do ano\n• Noite e dia\n• Viagem de avião\n\n**Extras (11 histórias):**\n• Quando perdemos alguém\n• Cumprimentar as pessoas\n• Divórcio\n• Mudança de casa\n• Porque as pessoas trabalham\n• Minha mãe vai ter um bebê\n• Como eu posso me comunicar\n• O que eu posso fazer pra me acalmar\n• Quando eu estou bravo\n• Parque de diversões\n• Consequências\n\n**Bônus - 5 sequências visuais:**\n• Sequência lavar as mãos\n• Escovar os dentes\n• Apoio visual o que vestir\n• Banho\n• Como preservar meu corpo"
+    },
+    {
       question: "Posso personalizar as histórias?",
       answer: "Sim! O material permite que você adapte as histórias para situações específicas da rotina da sua criança, tornando-as ainda mais efetivas e significativas."
     }
