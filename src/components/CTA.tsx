@@ -55,7 +55,7 @@ const CTA = () => {
                 <p className="text-xs sm:text-sm text-muted-foreground mb-2">Investimento único:</p>
                 <div className="flex flex-col items-center justify-center gap-2">
                   <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-primary via-secondary to-coral bg-clip-text text-transparent">
-                    R$ 37,00
+                    R$ 67,00
                   </span>
                   <p className="text-xs sm:text-sm text-muted-foreground mt-1">
                     Pagamento único
