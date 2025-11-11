@@ -21,7 +21,81 @@ const FAQ = () => {
     },
     {
       question: "Quais são as 36 histórias sociais incluídas no kit?",
-      answer: "O kit contém 31 histórias sociais + 5 extras, totalizando 36 histórias:\n\n**Atividades (7 histórias):**\n• Cortar as unhas\n• Higiene pessoal\n• Porque eu tomo remédios\n• Cirurgia\n• Exame de sangue\n• Alimentação saudável\n• Vacina\n\n**Eventos especiais (13 histórias):**\n• Natal\n• Férias\n• Ano Novo\n• Vamos ao cinema\n• Visita ao museu\n• Volta às aulas\n• Halloween\n• Meu aniversário\n• Carnaval\n• Feriado\n• Estações do ano\n• Noite e dia\n• Viagem de avião\n\n**Extras (11 histórias):**\n• Quando perdemos alguém\n• Cumprimentar as pessoas\n• Divórcio\n• Mudança de casa\n• Porque as pessoas trabalham\n• Minha mãe vai ter um bebê\n• Como eu posso me comunicar\n• O que eu posso fazer pra me acalmar\n• Quando eu estou bravo\n• Parque de diversões\n• Consequências\n\n**Bônus - 5 sequências visuais:**\n• Sequência lavar as mãos\n• Escovar os dentes\n• Apoio visual o que vestir\n• Banho\n• Como preservar meu corpo"
+      answer: (
+        <div className="space-y-6">
+          <p className="text-foreground font-medium">O kit contém 31 histórias sociais + 5 extras, totalizando 36 histórias organizadas em categorias:</p>
+          
+          <div className="space-y-4">
+            <div className="bg-primary/5 rounded-lg p-4 border-l-4 border-primary">
+              <h4 className="font-bold text-foreground mb-3 flex items-center gap-2">
+                🏥 Atividades do Cotidiano <span className="text-sm font-normal text-muted-foreground">(7 histórias)</span>
+              </h4>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
+                <li className="flex items-start gap-2"><span className="text-primary">✓</span> Cortar as unhas</li>
+                <li className="flex items-start gap-2"><span className="text-primary">✓</span> Higiene pessoal</li>
+                <li className="flex items-start gap-2"><span className="text-primary">✓</span> Porque eu tomo remédios</li>
+                <li className="flex items-start gap-2"><span className="text-primary">✓</span> Cirurgia</li>
+                <li className="flex items-start gap-2"><span className="text-primary">✓</span> Exame de sangue</li>
+                <li className="flex items-start gap-2"><span className="text-primary">✓</span> Alimentação saudável</li>
+                <li className="flex items-start gap-2"><span className="text-primary">✓</span> Vacina</li>
+              </ul>
+            </div>
+
+            <div className="bg-secondary/5 rounded-lg p-4 border-l-4 border-secondary">
+              <h4 className="font-bold text-foreground mb-3 flex items-center gap-2">
+                🎉 Eventos Especiais <span className="text-sm font-normal text-muted-foreground">(13 histórias)</span>
+              </h4>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
+                <li className="flex items-start gap-2"><span className="text-secondary">✓</span> Natal</li>
+                <li className="flex items-start gap-2"><span className="text-secondary">✓</span> Férias</li>
+                <li className="flex items-start gap-2"><span className="text-secondary">✓</span> Ano Novo</li>
+                <li className="flex items-start gap-2"><span className="text-secondary">✓</span> Vamos ao cinema</li>
+                <li className="flex items-start gap-2"><span className="text-secondary">✓</span> Visita ao museu</li>
+                <li className="flex items-start gap-2"><span className="text-secondary">✓</span> Volta às aulas</li>
+                <li className="flex items-start gap-2"><span className="text-secondary">✓</span> Halloween</li>
+                <li className="flex items-start gap-2"><span className="text-secondary">✓</span> Meu aniversário</li>
+                <li className="flex items-start gap-2"><span className="text-secondary">✓</span> Carnaval</li>
+                <li className="flex items-start gap-2"><span className="text-secondary">✓</span> Feriado</li>
+                <li className="flex items-start gap-2"><span className="text-secondary">✓</span> Estações do ano</li>
+                <li className="flex items-start gap-2"><span className="text-secondary">✓</span> Noite e dia</li>
+                <li className="flex items-start gap-2"><span className="text-secondary">✓</span> Viagem de avião</li>
+              </ul>
+            </div>
+
+            <div className="bg-accent/5 rounded-lg p-4 border-l-4 border-accent">
+              <h4 className="font-bold text-foreground mb-3 flex items-center gap-2">
+                💡 Situações Extras <span className="text-sm font-normal text-muted-foreground">(11 histórias)</span>
+              </h4>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
+                <li className="flex items-start gap-2"><span className="text-accent">✓</span> Quando perdemos alguém</li>
+                <li className="flex items-start gap-2"><span className="text-accent">✓</span> Cumprimentar as pessoas</li>
+                <li className="flex items-start gap-2"><span className="text-accent">✓</span> Divórcio</li>
+                <li className="flex items-start gap-2"><span className="text-accent">✓</span> Mudança de casa</li>
+                <li className="flex items-start gap-2"><span className="text-accent">✓</span> Porque as pessoas trabalham</li>
+                <li className="flex items-start gap-2"><span className="text-accent">✓</span> Minha mãe vai ter um bebê</li>
+                <li className="flex items-start gap-2"><span className="text-accent">✓</span> Como eu posso me comunicar</li>
+                <li className="flex items-start gap-2"><span className="text-accent">✓</span> O que eu posso fazer pra me acalmar</li>
+                <li className="flex items-start gap-2"><span className="text-accent">✓</span> Quando eu estou bravo</li>
+                <li className="flex items-start gap-2"><span className="text-accent">✓</span> Parque de diversões</li>
+                <li className="flex items-start gap-2"><span className="text-accent">✓</span> Consequências</li>
+              </ul>
+            </div>
+
+            <div className="bg-gradient-to-r from-primary/10 to-secondary/10 rounded-lg p-4 border-l-4 border-primary">
+              <h4 className="font-bold text-foreground mb-3 flex items-center gap-2">
+                🎁 Bônus - Sequências Visuais <span className="text-sm font-normal text-muted-foreground">(5 extras)</span>
+              </h4>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
+                <li className="flex items-start gap-2"><span className="text-primary">★</span> Sequência lavar as mãos</li>
+                <li className="flex items-start gap-2"><span className="text-primary">★</span> Escovar os dentes</li>
+                <li className="flex items-start gap-2"><span className="text-primary">★</span> Apoio visual o que vestir</li>
+                <li className="flex items-start gap-2"><span className="text-primary">★</span> Banho</li>
+                <li className="flex items-start gap-2"><span className="text-primary">★</span> Como preservar meu corpo</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      )
     },
     {
       question: "Posso personalizar as histórias?",
