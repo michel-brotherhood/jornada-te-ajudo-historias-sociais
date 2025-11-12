@@ -36,7 +36,7 @@ const FAQ = () => {
               <ul className="text-sm text-muted-foreground space-y-2 ml-4">
                 <li className="flex items-start gap-2">
                   <span className="text-primary font-bold">•</span>
-                  <span><strong>No Windows:</strong> Clique com o botão direito no arquivo .zip e selecione "Extrair tudo..." ou "Extrair aqui"</span>
+                  <span><strong>No Windows:</strong> Clique com o botão direito no arquivo .zip e selecione "Extrair tudo..." ou "Extrair aqui". Se essas opções não aparecerem, você pode usar programas gratuitos como WinRAR ou 7-Zip</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary font-bold">•</span>
