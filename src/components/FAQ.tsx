@@ -16,6 +16,56 @@ const FAQ = () => {
       answer: "Você receberá o acesso ao Kit de Histórias Sociais por email imediatamente após a confirmação do pagamento. O material pode ser baixado, visualizado e impresso de qualquer dispositivo."
     },
     {
+      question: "Como visualizar o conteúdo das histórias sociais?",
+      answer: (
+        <div className="space-y-4">
+          <p className="text-foreground font-medium">O kit é entregue em formato digital. Siga os passos abaixo para acessar:</p>
+          
+          <div className="bg-primary/5 rounded-lg p-4 border-l-4 border-primary space-y-3">
+            <div>
+              <h4 className="font-bold text-foreground mb-2 flex items-center gap-2">
+                📥 Passo 1: Baixar o arquivo
+              </h4>
+              <p className="text-sm text-muted-foreground">Após a compra, você receberá um email com um link para download. Clique no link e o arquivo .zip será baixado para seu computador (geralmente na pasta "Downloads").</p>
+            </div>
+            
+            <div>
+              <h4 className="font-bold text-foreground mb-2 flex items-center gap-2">
+                📂 Passo 2: Extrair o arquivo .zip
+              </h4>
+              <ul className="text-sm text-muted-foreground space-y-2 ml-4">
+                <li className="flex items-start gap-2">
+                  <span className="text-primary font-bold">•</span>
+                  <span><strong>No Windows:</strong> Clique com o botão direito no arquivo .zip e selecione "Extrair tudo..." ou "Extrair aqui"</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary font-bold">•</span>
+                  <span><strong>No Mac:</strong> Basta dar dois cliques no arquivo .zip que ele será extraído automaticamente</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-primary font-bold">•</span>
+                  <span><strong>No Celular/Tablet:</strong> Use um aplicativo de arquivos (como "Arquivos" no iPhone ou "Meus Arquivos" no Android) para extrair</span>
+                </li>
+              </ul>
+            </div>
+            
+            <div>
+              <h4 className="font-bold text-foreground mb-2 flex items-center gap-2">
+                📄 Passo 3: Abrir os arquivos PDF
+              </h4>
+              <p className="text-sm text-muted-foreground">Após extrair, você verá várias pastas organizadas por categoria. Dentro de cada pasta estão os arquivos PDF das histórias. Clique duas vezes em qualquer PDF para abrir e visualizar. Você pode também imprimir diretamente do visualizador de PDF.</p>
+            </div>
+          </div>
+          
+          <div className="bg-accent/10 rounded-lg p-3 border border-accent/20">
+            <p className="text-sm text-foreground">
+              <strong>💡 Dica:</strong> Não precisa instalar nenhum programa especial! Seu computador ou celular já tem tudo que precisa para abrir arquivos .zip e PDF.
+            </p>
+          </div>
+        </div>
+      )
+    },
+    {
       question: "O que são histórias sociais?",
       answer: "Histórias sociais são narrativas estruturadas com figuras e textos que explicam situações do dia a dia. Elas ajudam crianças autistas a entender o que esperar em diferentes contextos, reduzindo ansiedade e oferecendo previsibilidade."
     },
